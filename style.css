@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Tilt Neon", sans-serif;
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(209, 220, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.buttonss {
+  right: 10px;
+  top: 5px;
+  padding: 10px;
+}
+.buttonss .bn {
+  padding: 20px 30px;
+  background-color: #0008ff;
+  color: rgb(255, 255, 255);
+  border: solid rgb(212, 255, 0);
+  border-radius: 20px;
+  box-shadow: 3px 3px 8px 0px #030101;
+}
+
+.color_text {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.color {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea {
+  box-shadow: 4px 4px 10px 0px #030101;
+  border-radius: 5px;
+  padding: 15px;
+}
+.right {
+  width: 50%;
+  text-align: center;
+}
+.notesNotAdded {
+  width: 50%;
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right div {
+  width: fit-content;
+  min-width: 200px;
+  height: 150px;
+  position: relative;
+  padding: 17px 17px 3px 3px;
+}
+.right button {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
